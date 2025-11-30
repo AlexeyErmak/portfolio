@@ -1,0 +1,54 @@
+/* =IMPORT= */
+
+@import '../styles/fonts.css';
+@import '../styles/helpers/reset.css';
+
+@import '../styles/blocks/header.css';
+@import '../styles/blocks/footer.css';
+@import '../styles/blocks/hero.css';
+@import '../styles/blocks/strip.css';
+
+
+/* =MAIN STYLES= */
+
+.body {
+    font-family: 'Muller', sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    color: var(--text-color);
+    background: #191B20;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.container {
+    max-width: 1850px;
+    /* 1850px */
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+:root {
+    --text-color: #FFFFFF;
+    --accent-color: #F69020;
+    --arrow-color: #FFC619;
+    --desc-color: #C5C5C5;
+    --transition: all .5s;
+}
+
+/* =BLOCKS STYLES= */
+
+.main__header {
+    padding: 40px 0;
+}
